@@ -46,7 +46,8 @@ int main()
 				break;
 		case 7:del();
 				break;
-		
+		default:
+				break;
 
 	}
 	
