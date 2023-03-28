@@ -30,6 +30,25 @@ int main()
 	printf("\n");
 	printf("\nEnter a choice:");
 	scanf("%d",&choice);
+	switch(choice)
+	{
+		case 1:display();
+				break;
+		case 2: insertBegin();
+				break;
+		case 3:insertEnd();
+				break;
+		case 4:insert();
+				break;
+		case 5:delBegin();
+				break;
+		case 6:delEnd();
+				break;
+		case 7:del();
+				break;
+		
+
+	}
 	
 }
 
