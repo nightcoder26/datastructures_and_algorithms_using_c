@@ -16,7 +16,7 @@ void del();
 struct node* head;
 int main()
 {
-	int n;
+	int n,choice;
 	printf("\nEnter the number of nodes in your linked list :");
 	scanf("%d",&n);
 	createList(n);
@@ -27,6 +27,9 @@ int main()
 	printf("\n5.Delete at the beginning");
 	printf("\n6.Delete at the end");
 	printf("\n7.Delete at any position");
+	printf("\n");
+	printf("\nEnter a choice:");
+	scanf("%d",&choice);
 	
 }
 
