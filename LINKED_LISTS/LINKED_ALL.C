@@ -20,7 +20,13 @@ int main()
 	printf("\nEnter the number of nodes in your linked list :");
 	scanf("%d",&n);
 	createList(n);
-	del();
+	printf("\n1. Display the linked list");
+	printf("\n2.Insert at the beginning");
+	printf("\n3.Insert at the end");
+	printf("\n4.Insert at any position ");
+	printf("\n5.Delete at the beginning");
+	printf("\n6.Delete at the end");
+	printf("\n7.Delete at any position");
 	
 }
 
